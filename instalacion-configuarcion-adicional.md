@@ -41,9 +41,13 @@ Para cambiar esta configuración, abra el archivo `manager/config-default.json` 
   // URL con la que se anunciarán las aplicaciones
   "prefix": "https://localhost:9000/",
   "mongo": {
+    // base de datos principal de la aplicación
     "database": "origami-dev",
+    // host de la base de datos
     "host": "127.0.0.1",
+    // puerto de la base de datos
     "port": 27017,
+    // usuario, dejar en blanco para no utilizar autenticación de MongoDB
     "username": "",
     "password": ""
   },
