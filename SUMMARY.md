@@ -1,7 +1,7 @@
 # Summary
 
 * [Introducción](README.md)
-* [Instalación](instalacion.md)
+* Instalación
    * [Configuarción adicional](instalacion-configuarcion-adicional.md)
    * [Preparación del entorno](instalacion-preparacion-del-entorno.md)
 * [Descripción de una aplicación](descripcion-de-una-aplicacion.md)
