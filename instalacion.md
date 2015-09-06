@@ -1,6 +1,3 @@
-Instalación
-===========
-
 Preparación del entorno
 -----------------------
 
