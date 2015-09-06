@@ -1,6 +1,3 @@
-Introducción a Origami
-======================
-
 Razón de ser
 ------------
 
