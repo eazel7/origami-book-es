@@ -1,8 +1,7 @@
 #### 1. Base de datos MongoDB
 
 De forma predeterminada, Origami utiliza la base de datos `origami-dev` en `localhost:27017`, sin autenticación.
-Para cambiar esta configuración, abra el archivo `manager/config-default.json`
-
+Para cambiar esta configuración, abra el archivo `manager/config-default.json` y actualícelo de forma acorde a su entorno.
 
 ```
 {
@@ -58,3 +57,8 @@ Para cambiar esta configuración, abra el archivo `manager/config-default.json`
   }
 }
 ```
+
+#### 2. Instalación de paquetes básicos de UI
+
+#### 3. Generación de certificados para SSL
+
