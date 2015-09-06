@@ -7,9 +7,8 @@ Para cambiar esta configuración, abra el archivo `manager/config-default.json`
 ```
 {
   "ip": "0.0.0.0", // IP a la que responde pedidos
-  "port": 9000, // puerto en el que escucha los pedi
-  "singleDbMode": true,
-  "expressSecret": "thisIsAnObviousSecret",
+  "port": 9000, // puerto en el que escucha los pedidos
+  "expressSecret": "thisIsAnObviousSecret", // clave para encriptar las cookies
   "auth": {
     "origami-auth-local": {
       "mongo": {
