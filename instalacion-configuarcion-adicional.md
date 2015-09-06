@@ -68,5 +68,9 @@ Para cambiar esta configuración, abra el archivo `manager/config-default.json` 
 
 #### 2. Instalación de paquetes básicos de UI
 
+Una vez iniciada la aplicación, en la carpeta `basic-packs` se encuentran varios archivos.
+
+
+
 #### 3. Generación de certificados para SSL
 
