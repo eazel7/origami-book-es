@@ -30,6 +30,3 @@ cd origami
 ```bash
 ./run.sh
 ```
-
-Confiración adicional
----------------------
