@@ -1,4 +1,2 @@
-
-
 Confiración adicional
 ---------------------
