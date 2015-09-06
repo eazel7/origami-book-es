@@ -66,10 +66,20 @@ Para cambiar esta configuración, abra el archivo `manager/config-default.json` 
 }
 ```
 
-#### 2. Instalación de paquetes básicos de UI
+#### 2. Usuario administrador
 
-Una vez iniciada la aplicación, en la carpeta `basic-packs` se encuentran varios archivos.
+El primer usuario que se cree en el sistema será usuario maestro. Esto es lo que la aplicación llama `master user` y tiene privilegios para realizar cualquier operación.
 
+1. Navegue a la aplicación
+2. Se presentará la pantalla de inicio de sesión
+3. Complete el nombre de usuario y la contraseña
+4. Haga click en _sign up_
+5. Complete el correo electrónico
+6. Haga click nuevamente en sign up
+
+#### 3. Instalación de paquetes básicos de UI
+
+Una vez iniciada la aplicación, en la carpeta `basic-packs` se encuentran varios archivos. Éstos son los paquetes básicos que contienen 
 
 
 #### 3. Generación de certificados para SSL
