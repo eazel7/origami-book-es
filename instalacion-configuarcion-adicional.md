@@ -10,6 +10,8 @@ Para cambiar esta configuración, abra el archivo `manager/config-default.json`
   "port": 9000, // puerto en el que escucha los pedidos
   "expressSecret": "thisIsAnObviousSecret", // clave para encriptar las cookies
   "auth": {
+    // "origami-auth-local" es un nombre de plugin de autenticación
+    // el objeto llega al plugin como su configuración
     "origami-auth-local": {
       "mongo": {
         "database": "origami-dev",
