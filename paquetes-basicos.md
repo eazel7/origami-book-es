@@ -1,5 +1,7 @@
 #### angular
 
+[AngularJS](http://angularjs.org/) es el framework sobre el cual se apoya el resto de los paquetes.
+
 
 
 #### mobile-angular-ui
