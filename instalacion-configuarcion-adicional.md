@@ -81,6 +81,12 @@ El primer usuario que se cree en el sistema será usuario maestro. Esto es lo qu
 
 Una vez iniciada la aplicación, en la carpeta `basic-packs` se encuentran varios archivos. Éstos son los paquetes básicos con los que se presenta Origami 1. Para una descripción de cada uno, consulte [paquetes básicos](paquetes-basicos.md).
 
+1. Navegue a la aplicación
+2. Inicie sesión
+3. Navegue a Packages
+4. Arrastre los archivos desde su navegador hasta la casilla _Import packages_
 
-#### 3. Generación de certificados para SSL
+#### 3. Regeneración de certificados para SSL
 
+Si deseara regenerar el certificado SSL por algún motivo, dentro de la carpeta principal se encuentra un script `generate-certificate.sh` que utiliza la utilidad `openssl`. Toma como parámetro el DNS para el cual se emitirá el certificado y por defecto utiliza `localhost`. Este certificado será auto-firmado, por lo cual no debe usarse en entornos productivos.
+La salida será un archivo `localhost.pem` que contiene ambas claves, privada y pública.
