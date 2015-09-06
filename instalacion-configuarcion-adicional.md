@@ -79,7 +79,7 @@ El primer usuario que se cree en el sistema será usuario maestro. Esto es lo qu
 
 #### 3. Instalación de paquetes básicos de UI
 
-Una vez iniciada la aplicación, en la carpeta `basic-packs` se encuentran varios archivos. Éstos son los paquetes básicos con los que se presenta Origami 1. Para una descripción de cada uno, consulte [paquetes básicos]().
+Una vez iniciada la aplicación, en la carpeta `basic-packs` se encuentran varios archivos. Éstos son los paquetes básicos con los que se presenta Origami 1. Para una descripción de cada uno, consulte [paquetes básicos](paquetes-basicos.md).
 
 
 #### 3. Generación de certificados para SSL
