@@ -14,16 +14,32 @@ Para cambiar esta configuración, abra el archivo `manager/config-default.json`
     // el objeto llega al plugin como su configuración
     "origami-auth-local": {
       "mongo": {
+        // base de datos donde se guardarán los nombres de usuario locales
         "database": "origami-dev",
+        // host de la base de datos
         "host": "127.0.0.1",
+        // puerto
         "port": 27017,
+        // usuario, dejar en blanco para no utilizar autenticación de MongoDB
         "username": "",
         "password": "",
+        // nombre de la colección con los usuarios y contraseñas locales
         "collection": "local-users"
       }
     }
   },
+  // protocolo con el que se escuchará, puede ser "http" o "spdy"
+  // en el caso de elegir "spdy" la sección "keys" es requerida
   "protocol": "spdy",
+  "keys": {
+    // clave privada para SSL
+    "key": "keys/localhost.pem",
+    // certificado para SSL
+    "cert": "keys/localhost.pem",
+    // certificado de la entidad de certificación para SSL
+    "ca": "keys/localhost.pem"
+  },
+  // URL con la que se anunciarán las aplicaciones
   "prefix": "https://localhost:9000/",
   "mongo": {
     "database": "origami-dev",
@@ -39,11 +55,6 @@ Para cambiar esta configuración, abra el archivo `manager/config-default.json`
     "username": "",
     "password": "",
     "auto_reconnect": true
-  },
-  "keys": {
-    "key": "keys/localhost.pem",
-    "cert": "keys/localhost.pem",
-    "ca": "keys/localhost.pem"
   }
 }
 ```
