@@ -52,9 +52,13 @@ Para cambiar esta configuración, abra el archivo `manager/config-default.json` 
     "password": ""
   },
   "mongoSessions": {
+    // base de datos de las sesiones web
     "db": "origami-dev",
+    // host de la base de datos
     "host": "127.0.0.1",
+    // puerto de la base de datos
     "port": 27017,
+    // usuario, dejar en blanco para no utilizar autenticación de MongoDB
     "username": "",
     "password": "",
     "auto_reconnect": true
