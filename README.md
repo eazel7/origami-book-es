@@ -13,14 +13,16 @@ Funcionalidades destacadas
 
  - Editor de vistas con recarga automática
  - Desacople de modelo, plantilla y controlador
+ - Basado en Angular.JS
  - Instrumentación de código para reporte de errores en el navegador
  - Sincronización de datos para uso offline en navegador
  - Generación de manifiesto HTML para aplicaciones offline
  - Registro de operaciones
  - Sistema de permisos por grupos, configurable con granularidad
- - Editor de Workflows
- - Scheduling de Workflows
- - Debugger de Workflows
+ - Workflows:
+   - Editor de Workflows
+   - Scheduling de Workflows
+   - Debugger de Workflows
  - Administrador de paquetes de UI con editor de assets
  - Posibilidad de conectarse a DBs MongoDB externas
  - Paquetes de UI de ejemplo para:
