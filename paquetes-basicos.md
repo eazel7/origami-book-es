@@ -4,6 +4,8 @@
 
 #### mobile-angular-ui
 
+[Mobile Angular UI](http://mobileangularui.com) es una capa de presentación basada en AngularJS adaptable a dispositivos móviles y escritorios. Incluye un set de íconos
+
 #### index
 
 #### local-data
